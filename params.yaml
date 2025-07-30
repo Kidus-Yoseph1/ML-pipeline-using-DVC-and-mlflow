@@ -4,11 +4,7 @@ preprocess:
 
 train: 
   data: data/processed/data.csv
-<<<<<<< HEAD
   model: models/model.pkl
-=======
-  model: mdels/model.pkl
->>>>>>> 5c155b326bad31df8dd1296221147917d3f5680f
   random_state: 42
   n_estimators: 100
   max_depth: 5
